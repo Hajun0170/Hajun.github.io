@@ -1,0 +1,92 @@
+
+h1{background-color: #7ba9e4;
+  color: #ffffff;
+  padding: 15px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-shadow: 2px 2px 4px #000000;
+
+  }
+
+ol {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    height:50px;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  p {
+    float: left;
+  }
+  
+  p a {
+    
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  p a:hover {
+    background-color: #111;
+  }
+
+  .memo-container {
+   margin: 10px;
+          
+          
+    }
+
+    .memo-list {
+      list-style:none;
+      margin-right: auto;
+      float: left;
+      margin: 10px;
+    }
+
+    img {
+      max-width: 80%;
+      height: 80%;
+  }
+
+  .memo-item {
+    
+    width: 50%;
+    height: 50%;
+    padding: 150px;
+    background-color: #88b2e1;
+    margin-bottom: 20px;
+    word-break:break-all;
+    border: 1px solid rgba(0, 0, 0, 0.415);
+  }
+
+  .memo-item .delete-button {
+    text-align: right;
+    color: red;
+    cursor: pointer;
+    
+  }
+
+  body {
+    scroll-snap-type: y mandatory;
+}
+
+/* 각 섹션 스타일 */
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+ /* 탭 버튼 컨테이너 스타일 */
+ .tab-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+

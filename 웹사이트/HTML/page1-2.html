@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link href="./CSS/style2.css" rel="stylesheet">     
+    <style>
+        
+    </style>
+</head>
+<body>   
+      <h1>장르 저장소</h1> 
+    <ol>
+        <p><a class="active" href="mainpage.html">메인페이지</a></p>
+        <p><a href="page1(search).html">장르1</a></p>
+        <p><a href="page1-1.html">장르2</a></p>
+        <p><a href="page1-2.html">장르3</a></p>
+        
+      </ol>    
+      <div class="memo-container">         
+        <form id="memo-form">         
+          <input
+            type="text"
+            id="memo-input"           
+            class="memo-input"
+            placeholder="내용 입력"                    
+           >        
+          <input 
+          type="file" 
+          id="image-input" 
+          accept="image/*"          
+          >
+          <button type="submit">메모 저장</button>
+        </form>
+        <ul id="memo-list" class="memo-list"></ul> 
+
+        <div class="image-preview"></div>
+      <span id="delete-button"></span>
+</body>
+<script src="./JAVA/memo2.js"></script>
+</html>
